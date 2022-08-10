@@ -1,6 +1,6 @@
 {
   "name": "volto-wide-content-folder",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Volto addon to expand horizontally the content folder.",
   "main": "src/index.js",
   "license": "MIT",
