@@ -8,4 +8,4 @@ Install with mrs-developer (see [Volto docs](https://docs.voltocms.com/customizi
 yarn add volto-wide-content-folder
 ```
 
-<img alt="Form customer satisfaction" src="./docs/screen-wide-content-folder.png" width="600" />
+<img alt="" src="./docs/screen-wide-content-folder.png" width="600" />
