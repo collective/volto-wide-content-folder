@@ -1,0 +1,60 @@
+@media (min-width: 768px) {
+  body.section-contents.cms-ui #page-contents.ui.container.folder-contents {
+    width: 90% !important;
+  }
+}
+
+body.section-contents.cms-ui
+  #page-contents.ui.container.folder-contents
+  .ui.menu.top-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.folder-contents .ui.table .icon-align-name span {
+  text-overflow: inherit;
+  white-space: normal;
+}
+
+@media (max-width: 768px) {
+  body.section-contents.cms-ui
+    #page-contents.ui.container.folder-contents
+    .ui.menu.top-menu
+    .right.menu.top-menu-searchbox {
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body.section-contents.cms-ui
+    #page-contents.ui.container.folder-contents
+    .ui.menu.top-menu
+    .right.menu.top-menu-searchbox {
+    width: 100%;
+  }
+
+  body.section-contents.cms-ui
+    #page-contents.ui.container.folder-contents
+    .ui.menu.top-menu
+    .right.menu.top-menu-searchbox
+    .ui.right.search.item {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+body.section-contents.cms-ui
+  #page-contents.ui.container.folder-contents
+  .ui.menu.top-menu
+  .contents-table-wrapper {
+  overflow-x: auto;
+}
+
+body.section-contents.cms-ui
+  #page-contents.ui.container.folder-contents
+  .ui.menu.top-menu
+  .contents-pagination
+  .menu
+  .item {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "volto-wide-content-folder",
+  "version": "0.1.0",
+  "description": "Volto addon to expand horizontally the content folder.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@release-it/conventional-changelog": "^2.0.1",
+    "husky": "^6.0.0",
+    "release-it": "^14.10.1"
+  },
+  "dependencies": {
+    "@plone/scripts": "*"
+  }
+}
